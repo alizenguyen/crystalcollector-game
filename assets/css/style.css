@@ -15,3 +15,8 @@ h1 {
 .button {
 	background-color: #F79421;
 }
+
+#paragraph {
+	margin: 50px 0px 50px 0px;
+	text-align: center;
+}
