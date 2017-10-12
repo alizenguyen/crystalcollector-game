@@ -20,3 +20,14 @@ h1 {
 	margin: 50px 0px 50px 0px;
 	text-align: center;
 }
+
+.crystals img {
+    margin: 50px 20px 50px 20px;
+}
+
+.crystals img:hover {
+    box-shadow: 0px 0px 5px #888888;
+    border: 5px solid #fff;
+    border-radius: 2px;
+    
+}
