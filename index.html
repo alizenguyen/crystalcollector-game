@@ -2,6 +2,9 @@
 <html>
 <head>
 	<title> Cyrstal Collector Game </title>
+
+	<!-- Bootstrap Links -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	
 	<!-- CSS Links -->
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
@@ -12,7 +15,12 @@
 
 </head>
 <body background="assets/images/crystalbackground.jpg">
-	<h1> Crystals Collector! </h1>
+
+	<div class="jumbotron">
+	  <h1>Crystal Collector</h1>
+	  <p><a class="btn btn-primary btn-lg button" href="#" role="button">Instructions</a></p>
+	</div>
+
 	<p> You will be given a random number at the start of the game. <br /><br /> There are four crystals below. By clicking on a crystal you will add a specific amoutn of points to your score. <br /><br /> You win the game by matching your total sore to random number, you lose the game if your total score goes above the random number. <br /><br /> The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change values of each crystal. </p>
 	
 	<div class="crystals">
@@ -22,11 +30,52 @@
 		<img src="assets/images/crystal-four.png" alt="crystal" style="width:250px;height:250px;">
 	</div>
 
-	<p> Score to get: </p>
-	<p> Your total score: </p>
-	<p> Wins: </p>
-	<p> Losses: </p>
-
+	<div class="container">
+		<div class="row">
+		    <div class="col-md-3">
+		    	<div class="panel panel-default">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Score to Get:</h3>
+				  </div>
+				  <div class="panel-body">
+				    Panel content
+				  </div>
+				</div>
+		    </div> <!-- End Column Div -->
+		    <div class="col-md-3">
+		    	<div class="panel panel-default">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Your Total Score:</h3>
+				  </div>
+				  <div class="panel-body">
+				    Panel content
+				  </div>
+				</div>
+		    </div> <!-- End Column Div -->
+		    <div class="col-md-3">
+		    	<div class="panel panel-default">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Total Wins: </h3>
+				  </div>
+				  <div class="panel-body">
+				    Wins: 
+				  </div>
+				</div>
+		    </div> <!-- End Column Div -->
+		    <div class="col-md-3">
+		    	<div class="panel panel-default">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Total Losses:</h3>
+				  </div>
+				  <div class="panel-body">
+				    Wins: 
+				  </div>
+				</div>
+		    </div> <!-- End Column Div -->
+		 </div>
+	</div> <!-- End Container Div -->
+	
+	<!-- Javascript Link -->
 	<script src="/assets/javascript/myscripts.js"></script>
 
 </body>
