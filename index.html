@@ -9,13 +9,17 @@
 	<!-- CSS Links -->
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
 
 </head>
-<body background="assets/images/crystalbackground.jpg">
+<body>
 
 	<div class="jumbotron">
 	  <h1 class="titleGame" id="titleText">CRYSTAL COLLECTOR</h1>
-	  <p><a class="btn btn-primary btn-lg info button" href="#" role="button">Instructions</a><a class="btn btn-primary btn-lg button setMood" href="#" role="button">Set the Beat</a><a class="btn btn-primary btn-lg button killMood" href="#" role="button">Silence</a></p>
+	  <p><a class="btn btn-primary btn-lg info button" href="#" role="button">INSTRUCTIONS</a><a class="btn btn-primary btn-lg button setMood" href="#" role="button">SET THE BEAT</a><a class="btn btn-primary btn-lg button killMood" href="#" role="button">SILENCE</a></p>
 	</div>
 
 	<p id="paragraph"> CHOOSE A CRYSTAL TO BEGIN! </p>
@@ -59,41 +63,41 @@
 		<div class="row">
 		    <div class="col-md-3">
 		    	<div class="panel panel-default">
-				  <div class="panel-heading">
-				    <h3 class="panel-title">Score to Get:</h3>
+				  <div class="panel-heading boxColor">
+				    <h3 class="panel-title recordTitle">Score to Get</h3>
 				  </div>
 				  <div class="panel-body">
-				    <span id="score-chosen"></span>
+				    <span id="score-chosen" class ="recordText"></span>
 				  </div>
 				</div>
 		    </div> <!-- End Column Div -->
 		    <div class="col-md-3">
 		    	<div class="panel panel-default">
 				  <div class="panel-heading">
-				    <h3 class="panel-title">Your Total Score:</h3>
+				    <h3 class="panel-title recordTitle">Your Total Score</h3>
 				  </div>
 				  <div class="panel-body">
-				    <span id="total-score">Start Clicking!</span>
+				    <span id="total-score" class="recordText">Start Clicking!</span>
 				  </div>
 				</div>
 		    </div> <!-- End Column Div -->
 		    <div class="col-md-3">
 		    	<div class="panel panel-default">
 				  <div class="panel-heading">
-				    <h3 class="panel-title">Total Wins: </h3>
+				    <h3 class="panel-title recordTitle">Total Wins</h3>
 				  </div>
 				  <div class="panel-body">
-				    <span id="total-wins">0</span>
+				    <span id="total-wins" class ="recordText">0</span>
 				  </div>
 				</div>
 		    </div> <!-- End Column Div -->
 		    <div class="col-md-3">
 		    	<div class="panel panel-default">
 				  <div class="panel-heading">
-				    <h3 class="panel-title">Total Losses:</h3>
+				    <h3 class="panel-title recordTitle">Total Losses</h3>
 				  </div>
 				  <div class="panel-body">
-				    <span id="total-losses">0</span>
+				    <span id="total-losses" class ="recordText">0</span>
 				  </div>
 				</div>
 		    </div> <!-- End Column Div -->

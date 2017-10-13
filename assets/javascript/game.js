@@ -1,7 +1,7 @@
 //Instructions
 
 $(".info").on("click", function() {
-	alert ("You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal you will add a specific amoutn of points to your score. You win the game by matching your total sore to random number, you lose the game if your total score goes above the random number. The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change values of each crystal.");
+	alert ("You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal you will add a specific amount of points to your score. You win the game by matching your total sore to random number chosen. You lose the game if your total score goes above the random number. The value of each crystal is hidden from you until you click on it. Each time the game restarts, the game will change values of each crystal.");
 });
 
 // Sets the music
@@ -42,7 +42,7 @@ $(document).ready(function() {
  	$('#modalButton').click(function (event) {
         $('#exampleModalLong').modal('show')
     });
-    
+
 */
 
 	function startOver() {

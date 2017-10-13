@@ -1,3 +1,8 @@
+body {
+	background: url(../images/crystalbackground.jpg);
+	background-size: 100% 100%;
+}
+
 h1 {
 	font-size: 42px;
 	text-align: center;
@@ -10,32 +15,62 @@ h1 {
 .jumbotron {
 	text-align: center;
 	background-color: #2D74BA;
-	height: 300px;
+	height: 350px;
 }
 
 .titleGame {
 	letter-spacing: 6px;
+	margin: 30px 0px 30px 0px;
 }
 
 #titleText {
 	color: white;
-	font-size: 500%;
+	font-size: 400%;
+	font-family: 'Press Start 2P', sans-serif;
 }
 
 .button {
 	background-color: #F79421;
-	margin: 30px 10px 0px 10px;
+	margin: 50px 10px 0px 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	border: none;
 }
 
 #paragraph {
 	color: white;
 	font-size: 100%;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 3px;
 	display: block;
 	width: 100%;
 	background-color: #F15B27;
 	margin: -60px 0px 50px 0%;
 	text-align: center;
 	padding: 20px 0px 20px 0px;
+}
+
+.recordTitle {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: white;
+}
+
+.recordText {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+.panel-body {
+	margin: 10px 0px 10px 0px;
+	text-align: center;
+}
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #F15B27;
+    color: white;
 }
 
 .crystals img {
@@ -47,4 +82,8 @@ h1 {
     border: 5px solid #fff;
     border-radius: 2px;
     
+}
+
+.container {
+	margin-bottom: 5%;
 }
