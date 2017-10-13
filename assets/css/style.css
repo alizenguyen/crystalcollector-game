@@ -13,18 +13,29 @@ h1 {
 	height: 300px;
 }
 
+.titleGame {
+	letter-spacing: 6px;
+}
+
+#titleText {
+	color: white;
+	font-size: 500%;
+}
+
 .button {
 	background-color: #F79421;
 	margin: 30px 10px 0px 10px;
 }
 
 #paragraph {
+	color: white;
+	font-size: 100%;
 	display: block;
-	width: 30%;
-	background-color: #EDF8FB;
-	margin: -70px 0px 50px 35%;
+	width: 100%;
+	background-color: #F15B27;
+	margin: -60px 0px 50px 0%;
 	text-align: center;
-	padding: 30px 0px 30px 0px;
+	padding: 20px 0px 20px 0px;
 }
 
 .crystals img {

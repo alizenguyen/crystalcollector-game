@@ -35,6 +35,16 @@ console.log(computerChoice);
 
 $(document).ready(function() { 
 
+	//Instructions
+
+/* MODAL JQUERY CODE - REVISIT
+
+ 	$('#modalButton').click(function (event) {
+        $('#exampleModalLong').modal('show')
+    });
+    
+*/
+
 	function startOver() {
 
 			//Computer chooses random number between 10-120
