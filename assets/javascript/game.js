@@ -28,6 +28,10 @@ var crystalOne;
 var crystalTwo;
 var crystalThree;
 var crystalFour;
+var audio = new Audio("assets/coin-sound.wav");
+var audioLose = new Audio("assets/you-lose.wav");
+var audioWin = new Audio("assets/you-win.mp3");
+var audioWin2 = new Audio("assets/you-win2.wav");
 
 console.log(computerChoice);
 
@@ -77,6 +81,7 @@ $(document).ready(function() {
 	    console.log("yourScore = " + yourScore);
 	    $("#total-score").html(yourScore);
 	    winloss();
+	    audio.play();
 	});
 
 	$("#crystalTwo").on("click", function() {
@@ -86,6 +91,7 @@ $(document).ready(function() {
 	    console.log("yourScore = " + yourScore);
 	    $("#total-score").html(yourScore);
 	    winloss();
+	    audio.play();
 	});
 
 	$("#crystalThree").on("click", function() {
@@ -95,6 +101,7 @@ $(document).ready(function() {
 	    console.log("yourScore = " + yourScore);
 	    $("#total-score").html(yourScore);
 	    winloss();
+	    audio.play();
 	});
 
 	$("#crystalFour").on("click", function() {
@@ -104,6 +111,7 @@ $(document).ready(function() {
 	    console.log("yourScore = " + yourScore);
 	    $("#total-score").html(yourScore);
 	    winloss();
+	    audio.play();
 	});
 
 	//Game reset. Sees new random number. User's score will reset to 0. All 4 crystals will have new hidden values. 
@@ -119,6 +127,8 @@ $(document).ready(function() {
 		if (yourScore === computerChoice) {
 			wins++; 
 			$("#total-wins").html(wins);
+			audioWin.play();
+			audioWin2.play();
 			reset();
 
 			startOver();
@@ -126,6 +136,7 @@ $(document).ready(function() {
 		} else if (yourScore > computerChoice) {
 			losses++;
 			$("#total-losses").html(losses);
+			audioLose.play();
 			reset();
 
 			startOver();
