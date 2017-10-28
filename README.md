@@ -2,7 +2,7 @@
 
 ### Overview
 
-Homework assignment focusing primarily the applications of jQuery. 
+Homework assignment focuses primarily the applications of jQuery. 
 
 In this assignment, we were asked to create an interactive game for web browsers that dynamically update your HTML pages with the jQuery library.
 
